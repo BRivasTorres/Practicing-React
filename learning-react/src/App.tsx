@@ -4,19 +4,22 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Componente from './Components/Componente'
 import Propiedades from './Components/Props'
+import Estado from './Components/State'
 
 function App() {
   return (
     <div>
       {/* <Componente /> */}
 
-      <Propiedades
+      {/* <Propiedades
         //&Las propiedades son valores que son pasados a mis componentes, utilizando la siguinte sintaxis.
         cadena="string"
         numero={23}
         boolean={true}
         arreglo={[1, 2, 3]}
-      />
+      /> */}
+
+      <Estado />
     </div>
   )
 }
