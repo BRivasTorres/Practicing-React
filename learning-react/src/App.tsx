@@ -5,6 +5,7 @@ import './App.css'
 import Componente from './Components/Componente'
 import Propiedades from './Components/Props'
 import Estado from './Components/State'
+import RenderizadoCondicional from './Components/ConditionalRendering'
 
 function App() {
   return (
@@ -19,7 +20,9 @@ function App() {
         arreglo={[1, 2, 3]}
       /> */}
 
-      <Estado />
+      {/* <Estado /> */}
+
+      <RenderizadoCondicional />
     </div>
   )
 }
