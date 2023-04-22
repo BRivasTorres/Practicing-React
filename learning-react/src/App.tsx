@@ -9,6 +9,7 @@ import Eventos from './Components/Events'
 import ComponentsComunication from './Components/ComponentsComunication'
 import LifeCicle from './Components/LifeCicle'
 import AsynchronousRequests from './Components/asynchronousRequests'
+import Hooks from './Components/Hooks'
 
 function App() {
   return (
@@ -26,8 +27,9 @@ function App() {
       {/* <Eventos /> */}
       {/* <ComponentsComunication /> */}
       {/* <LifeCicle /> */}
+      {/* <AsynchronousRequests /> */}
 
-      <AsynchronousRequests />
+      <Hooks />
     </div>
   )
 }
