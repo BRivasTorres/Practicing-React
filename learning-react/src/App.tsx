@@ -4,9 +4,9 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Componente from './Components/Componente'
 import Propiedades from './Components/Props'
-import Estado from './Components/State'
 import RenderizadoCondicional from './Components/ConditionalRendering'
 import Eventos from './Components/Events'
+import ComponentsComunication from './Components/ComponentsComunication'
 
 function App() {
   return (
@@ -21,8 +21,9 @@ function App() {
       /> */}
       {/* <Estado /> */}
       {/* <RenderizadoCondicional /> */}
+      {/* <Eventos /> */}
 
-      <Eventos />
+      <ComponentsComunication />
     </div>
   )
 }
