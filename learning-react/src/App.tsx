@@ -7,6 +7,7 @@ import Propiedades from './Components/Props'
 import RenderizadoCondicional from './Components/ConditionalRendering'
 import Eventos from './Components/Events'
 import ComponentsComunication from './Components/ComponentsComunication'
+import LifeCicle from './Components/LifeCicle'
 
 function App() {
   return (
@@ -22,8 +23,9 @@ function App() {
       {/* <Estado /> */}
       {/* <RenderizadoCondicional /> */}
       {/* <Eventos /> */}
+      {/* <ComponentsComunication /> */}
 
-      <ComponentsComunication />
+      <LifeCicle />
     </div>
   )
 }
