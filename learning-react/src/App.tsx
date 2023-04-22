@@ -8,6 +8,7 @@ import RenderizadoCondicional from './Components/ConditionalRendering'
 import Eventos from './Components/Events'
 import ComponentsComunication from './Components/ComponentsComunication'
 import LifeCicle from './Components/LifeCicle'
+import AsynchronousRequests from './Components/asynchronousRequests'
 
 function App() {
   return (
@@ -24,8 +25,9 @@ function App() {
       {/* <RenderizadoCondicional /> */}
       {/* <Eventos /> */}
       {/* <ComponentsComunication /> */}
+      {/* <LifeCicle /> */}
 
-      <LifeCicle />
+      <AsynchronousRequests />
     </div>
   )
 }
