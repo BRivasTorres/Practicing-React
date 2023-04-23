@@ -10,6 +10,7 @@ import ComponentsComunication from './Components/ComponentsComunication'
 import LifeCicle from './Components/LifeCicle'
 import AsynchronousRequests from './Components/asynchronousRequests'
 import Hooks from './Components/Hooks'
+import UseEffect from './Components/UseEffect'
 
 function App() {
   return (
@@ -28,8 +29,8 @@ function App() {
       {/* <ComponentsComunication /> */}
       {/* <LifeCicle /> */}
       {/* <AsynchronousRequests /> */}
-
-      <Hooks />
+      {/* <Hooks /> */}
+      <UseEffect />
     </div>
   )
 }
