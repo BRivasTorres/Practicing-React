@@ -11,6 +11,7 @@ import LifeCicle from './Components/LifeCicle'
 import AsynchronousRequests from './Components/asynchronousRequests'
 import Hooks from './Components/Hooks'
 import UseEffect from './Components/UseEffect'
+import RelojHooks from './Components/RelojHooks'
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
       {/* <LifeCicle /> */}
       {/* <AsynchronousRequests /> */}
       {/* <Hooks /> */}
-      <UseEffect />
+      {/* <UseEffect /> */}
+      <RelojHooks />
     </div>
   )
 }
