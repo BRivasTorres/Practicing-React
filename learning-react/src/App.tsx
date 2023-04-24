@@ -15,6 +15,7 @@ import RelojHooks from './Components/RelojHooks'
 import AjaxHooks from './Components/AjaxHooks'
 import CustomHooks from './Components/CustomHooks'
 import References from './Components/References'
+import Forms from './Components/Forms'
 
 function App() {
   return (
@@ -38,7 +39,8 @@ function App() {
       {/* <RelojHooks /> */}
       {/* <AjaxHooks /> */}
       {/* <CustomHooks /> */}
-      <References />
+      {/* <References /> */}
+      <Forms />
     </div>
   )
 }
