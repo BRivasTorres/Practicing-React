@@ -12,6 +12,7 @@ import AsynchronousRequests from './Components/asynchronousRequests'
 import Hooks from './Components/Hooks'
 import UseEffect from './Components/UseEffect'
 import RelojHooks from './Components/RelojHooks'
+import AjaxHooks from './Components/AjaxHooks'
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
       {/* <AsynchronousRequests /> */}
       {/* <Hooks /> */}
       {/* <UseEffect /> */}
-      <RelojHooks />
+      {/* <RelojHooks /> */}
+      <AjaxHooks />
     </div>
   )
 }
