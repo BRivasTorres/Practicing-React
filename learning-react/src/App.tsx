@@ -14,6 +14,7 @@ import UseEffect from './Components/UseEffect'
 import RelojHooks from './Components/RelojHooks'
 import AjaxHooks from './Components/AjaxHooks'
 import CustomHooks from './Components/CustomHooks'
+import References from './Components/References'
 
 function App() {
   return (
@@ -36,8 +37,8 @@ function App() {
       {/* <UseEffect /> */}
       {/* <RelojHooks /> */}
       {/* <AjaxHooks /> */}
-
-      <CustomHooks />
+      {/* <CustomHooks /> */}
+      <References />
     </div>
   )
 }
