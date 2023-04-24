@@ -13,6 +13,7 @@ import Hooks from './Components/Hooks'
 import UseEffect from './Components/UseEffect'
 import RelojHooks from './Components/RelojHooks'
 import AjaxHooks from './Components/AjaxHooks'
+import CustomHooks from './Components/CustomHooks'
 
 function App() {
   return (
@@ -34,7 +35,9 @@ function App() {
       {/* <Hooks /> */}
       {/* <UseEffect /> */}
       {/* <RelojHooks /> */}
-      <AjaxHooks />
+      {/* <AjaxHooks /> */}
+
+      <CustomHooks />
     </div>
   )
 }
