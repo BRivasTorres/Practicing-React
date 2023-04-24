@@ -1,6 +1,12 @@
 import React, { useState, useEffect } from 'react'
 
-function Pokemon({ avatar, name }) {
+interface Pokemon {
+    avatar: string;
+    name: string;
+    id: number;
+}
+
+function Pokemon({ avatar, name }: Pokemon) {
     <figure>
         <img src={avatar} alt={name} />
         <figcaption>{name}</figcaption>
@@ -10,7 +16,7 @@ function Pokemon({ avatar, name }) {
 
 
 const AjaxHooks = () => {
-    const [pokemon, setPokemon] = useState([])
+    const [pokemon, setPokemon] = useState<Pokemon[]>([])
 
     useEffect(() => {
 
