@@ -16,6 +16,7 @@ import AjaxHooks from './Components/AjaxHooks'
 import CustomHooks from './Components/CustomHooks'
 import References from './Components/References'
 import Forms from './Components/Forms'
+import Styles from './Components/Styles'
 
 function App() {
   return (
@@ -40,7 +41,8 @@ function App() {
       {/* <AjaxHooks /> */}
       {/* <CustomHooks /> */}
       {/* <References /> */}
-      <Forms />
+      {/* <Forms /> */}
+      <Styles />
     </div>
   )
 }
