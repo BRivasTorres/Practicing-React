@@ -17,6 +17,7 @@ import CustomHooks from './Components/CustomHooks'
 import References from './Components/References'
 import Forms from './Components/Forms'
 import Styles from './Components/Styles'
+import StyledComponents from './Components/StyledComponents'
 
 function App() {
   return (
@@ -42,7 +43,8 @@ function App() {
       {/* <CustomHooks /> */}
       {/* <References /> */}
       {/* <Forms /> */}
-      <Styles />
+      {/* <Styles /> */}
+      <StyledComponents />
     </div>
   )
 }
