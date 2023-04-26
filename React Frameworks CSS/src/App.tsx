@@ -1,4 +1,5 @@
 import Bootstrap from './components/Bootstrap'
+import MaterialUI from './components/MaterialUI'
 import ReactBootstrap from './components/ReactBootstrap'
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
     <>
       <div>Frameworks CSS con React</div>
       {/* <Bootstrap /> */}
-      <ReactBootstrap />
+      {/* <ReactBootstrap /> */}
+      <MaterialUI />
     </>
   )
 }
