@@ -54,7 +54,7 @@ const CrudApp = () => {
             <h2>Crud App</h2>
             <CrudForm
                 createData={createData}
-                updateDAta={updateData}
+                updateData={updateData}
                 dataToEdit={dataToEdit}
                 setDataToEdit={setDataToEdit}
             />

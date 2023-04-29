@@ -1,17 +1,19 @@
 import React from 'react'
 
-const CrudTableRow = ({ el }) => {
+const CrudTableRow = ({ el, setDataToEdit, deleteData }) => {
+    let { car, price, id } = el
+
     return (
         <div>
             <tr>
-                <td>{el.car}</td>
-                <td>{el.price}</td>
+                <td>{car}</td>
+                <td>{price}</td>
                 <td>
-                    <button>Editar</button>
-                    <button>Eliminar</button>
+                    <button  >Editar</button>
+                    <button >Eliminar</button>
                 </td>
-            </tr>
-        </div>
+            </tr >
+        </div >
     )
 }
 
