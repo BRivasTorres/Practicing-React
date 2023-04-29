@@ -9,7 +9,7 @@ const CrudTableRow = ({ el, setDataToEdit, deleteData }) => {
                 <td>{car}</td>
                 <td>{price}</td>
                 <td>
-                    <button  >Editar</button>
+                    <button >Editar</button>
                     <button >Eliminar</button>
                 </td>
             </tr >
