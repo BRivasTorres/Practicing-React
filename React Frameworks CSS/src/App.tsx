@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <div>Frameworks CSS con React</div>
+      <h1>Frameworks CSS con React</h1>
       {/* <Bootstrap /> */}
       {/* <ReactBootstrap /> */}
       <MaterialUI />

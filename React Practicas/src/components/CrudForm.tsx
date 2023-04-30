@@ -35,7 +35,7 @@ const CrudForm = ({ createData, updateData, dataToEdit, setDataToEdit }) => {
 
     const handleReset = (e) => {
         setForm(initialForm)
-        setDataToEdit(null)
+        //setDataToEdit(null)
     }
 
     return (
