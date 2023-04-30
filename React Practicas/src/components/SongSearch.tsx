@@ -23,7 +23,7 @@ const SongSearch = () => {
             />
             <SongDetails
                 search={search}
-                lyric={liryc}
+                lyric={lyric}
                 bio={bio}
             />
         </div>
