@@ -10,6 +10,16 @@ const SongSearch = () => {
     const [bio, setBio] = useState(null)
     const [loading, setLoading] = useState(false)
 
+    // useEffect(() => {
+    //     if(search === null) return
+    //     const fetchData = async () => {
+    //         const[artist, song] = search
+
+    //         let artistUrl = ""
+    //         let songUrl ""
+    //     }
+    // }, [search])
+
     const handleSearch = (data) => {
         console.log(data)
     }
