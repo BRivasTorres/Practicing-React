@@ -1,6 +1,8 @@
-[
+const Data = [
     {
-        "title" : "Alta Verapaz",
+        
+        "id": 1,
+        "departamento" : "Alta Verapaz",
         "mun" : [
             "Chahal",
             "Chisec",
@@ -19,8 +21,11 @@
             "Tucurú",
             "Santa María Cahabón",
             "Santa Catarina La Tinta"
-        ],
-        "title" :"Baja Verapaz",
+        ]
+    },
+    {
+        "id": 2,
+        "departamento" :"Baja Verapaz",
         "mun" : [
             "Cubulco",
             "Granados",
@@ -30,8 +35,11 @@
             "San Jerónimo",
             "San Miguel Chicaj",
             "Santa Cruz El Chol"
-        ],
-        "title" :"Chimaltenango",
+        ]
+    },
+    {
+        "id": 3,
+        "departamento" :"Chimaltenango",
         "mun" : [
             "Acatenango",
             "Chimaltenango",
@@ -49,8 +57,12 @@
             "Tecpán Guatemala",
             "Yepocapa",
             "Zaragoza"
-        ],
-        "title" : "Chiquimula",
+        ]
+    },
+    {
+        
+        "id": 4,
+        "departamento" : "Chiquimula",
         "mun" : [
             "Camotán",
             "Chiquimula",
@@ -63,9 +75,13 @@
             "San Jacinto",
             "San José La Arada",
             "San Juan Ermita"
-        ],
-        "title" : "El Progreso",
-        "mun" : [
+        ]
+    },
+    {
+        
+        "id": 5,
+        "departamento" : "El Progreso",
+        "un" : [
             "El Jícaro",
             "Guastatoya",
             "Morazán",
@@ -73,8 +89,12 @@
             "San Antonio La Paz",
             "San Cristóbal Acasaguastlán",
             "Sanarate"
-        ],
-        "title" : "Escuintla",
+        ]
+    },
+    {
+        
+        "id": 6,
+        "departamento" : "Escuintla",
         "mun" : [
             "Escuintla",
             "Guanagazapa",
@@ -89,8 +109,12 @@
             "Santa Lucía Cotzumalguapa",
             "Siquinalá",
             "Tiquisate"
-        ],
-        "title" : "Guatemala",
+        ]
+    },
+    {
+        
+        "id": 7,
+        "departamento" : "Guatemala",
         "mun" : [
             "Amatitlán",
             "Chinautla",
@@ -108,8 +132,11 @@
             "San Raymundo",
             "Santa Catarina Pinula",
             "Villa Canales"
-        ],
-        "title" : "Huehuetenango",
+        ]
+    },
+    {
+        "id": 8,
+        "departamento" : "Huehuetenango",
         "mun" : [
             "Aguacatán",
             "Chiantla",
@@ -142,16 +169,22 @@
             "Soloma",
             "Tectitán",
             "Todos Santos Cuchumatan"
-        ],
-        "title" : "Izabal",
+        ]
+    },
+    {
+        "id": 9,
+        "departamento" : "Izabal",
         "mun" : [
             "El Estor",
             "Livingston",
             "Los Amates",
             "Morales",
             "Puerto Barrios"
-        ],
-        "title" : "Jalapa",
+        ]
+    },
+    {
+        "id": 10,
+        "departamento" : "Jalapa",
         "mun" : [
             "Jalapa",
             "Mataquescuintla",
@@ -160,8 +193,11 @@
             "San Luis Jilotepeque",
             "San Manuel Chaparrón",
             "San Pedro Pinula"
-        ],
-        "title" : "Jutiapa",
+        ]
+    },
+    {
+        "id": 11,
+        "departamento" : "Jutiapa",
         "mun" : [
             "Agua Blanca",
             "Asunción Mita",
@@ -180,8 +216,11 @@
             "Santa Catarina Mita",
             "Yupiltepeque",
             "Zapotitlán"
-        ],
-        "title" : "Petén",
+        ]
+    },
+    {
+        "id": 12,
+        "departamento" : "Petén",
         "mun" : [
             "Dolores",
             "Flores",
@@ -196,8 +235,11 @@
             "Santa Ana",
             "Sayaxché",
             "Las Cruces"
-        ],
-        "title" : "Quetzaltenango",
+        ]
+    },
+    {
+        "id": 13,
+        "departamento" : "Quetzaltenango",
         "mun" : [
             "Almolonga",
             "Cabricán",
@@ -223,8 +265,11 @@
             "San Miguel Sigüilá",
             "Sibilia",
             "Zunil"
-        ],
-        "title" : "Quiché",
+        ]
+    },
+    {
+        "id": 14,
+        "departamento" : "Quiché",
         "mun" : [
             "Canillá",
             "Chajul",
@@ -247,8 +292,11 @@
             "Santa Cruz del Quiché",
             "Uspantán",
             "Zacualpa"
-        ],
-        "title" : "Retalhuleu",
+        ]
+    },
+    {
+        "id": 15,
+        "departamento" : "Retalhuleu",
         "mun" : [
             "Champerico",
             "El Asintal",
@@ -259,8 +307,11 @@
             "San Martín Zapotitlán",
             "San Sebastián",
             "Santa Cruz Muluá"
-        ],
-        "title" : "Sacatepéquez",
+        ]
+    },
+    {
+        "id": 16,
+        "departamento" : "Sacatepéquez",
         "mun" : [
             "Alotenango",
             "Antigua",
@@ -278,8 +329,11 @@
             "Santiago Sacatepéquez",
             "Santo Domingo Xenacoj",
             "Sumpango"
-        ],
-        "title" : "San Marcos",
+        ]
+    },
+    {
+        "id": 17,
+        "departamento" : "San Marcos",
         "mun" : [
             "Ayutla",
             "Catarina",
@@ -310,8 +364,11 @@
             "Tacaná",
             "Tajumulco",
             "Tejutla"
-        ],
-        "title" : "Santa Rosa",
+        ]
+    },
+    {
+        "id": 18,
+        "departamento" : "Santa Rosa",
         "mun" : [
             "Barberena",
             "Casillas",
@@ -327,8 +384,11 @@
             "Santa María Ixhuatán",
             "Santa Rosa de Lima",
             "Taxisco"
-        ],
-        "title" : "Sololá",
+        ]
+    },
+    {
+        "id": 19,
+        "departamento" : "Sololá",
         "mun" : [
             "Concepción",
             "Nahualá",
@@ -349,8 +409,11 @@
             "Santa María Visitación",
             "Santiago Atitlán",
             "Sololá"
-        ],
-        "title" : "Suchitepéquez",
+        ]
+    },
+    {
+        "id": 20,
+        "departamento" : "Suchitepéquez",
         "mun" : [
             "Chicacao",
             "Cuyotenango",
@@ -372,8 +435,11 @@
             "Santo Domingo Suchitepequez",
             "Santo Tomas La Unión",
             "Zunilito"
-        ],
-        "title" : "Totonicapán",
+        ]
+    },
+    {
+        "id": 21,
+        "departamento" : "Totonicapán",
         "mun" : [
             "Momostenango",
             "San Andrés Xecul",
@@ -383,8 +449,11 @@
             "Santa Lucía La Reforma",
             "Santa María Chiquimula",
             "Totonicapán"
-        ],
-        "title" : "Zacapa",
+        ]
+    },
+    {
+        "id": 22,
+        "departamento" : "Zacapa",
         "mun" : [
             "Cabañas",
             "Estanzuela",
@@ -397,5 +466,7 @@
             "Usumatlán",
             "Zacapa"
         ]
-    }
+    },
 ]
+
+export default Data
