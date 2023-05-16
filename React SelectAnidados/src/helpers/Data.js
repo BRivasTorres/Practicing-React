@@ -3,7 +3,7 @@ const Data = [
         
         "id": 1,
         "departamento" : "Alta Verapaz",
-        "mun" : [
+        "municipios" : [
             "Chahal",
             "Chisec",
             "Cobán",
@@ -26,7 +26,7 @@ const Data = [
     {
         "id": 2,
         "departamento" :"Baja Verapaz",
-        "mun" : [
+        "municipios" : [
             "Cubulco",
             "Granados",
             "Purulhá",
@@ -40,7 +40,7 @@ const Data = [
     {
         "id": 3,
         "departamento" :"Chimaltenango",
-        "mun" : [
+        "municipios" : [
             "Acatenango",
             "Chimaltenango",
             "El Tejar",
@@ -63,7 +63,7 @@ const Data = [
         
         "id": 4,
         "departamento" : "Chiquimula",
-        "mun" : [
+        "municipios" : [
             "Camotán",
             "Chiquimula",
             "Concepción Las Minas",
@@ -95,7 +95,7 @@ const Data = [
         
         "id": 6,
         "departamento" : "Escuintla",
-        "mun" : [
+        "municipios" : [
             "Escuintla",
             "Guanagazapa",
             "Iztapa",
@@ -115,7 +115,7 @@ const Data = [
         
         "id": 7,
         "departamento" : "Guatemala",
-        "mun" : [
+        "municipios" : [
             "Amatitlán",
             "Chinautla",
             "Chuarrancho",
@@ -129,7 +129,7 @@ const Data = [
             "San Juan Sacatepéquez",
             "San Pedro Ayampuc",
             "San Pedro Sacatepéquez",
-            "San Raymundo",
+            "San Raymunicipiosdo",
             "Santa Catarina Pinula",
             "Villa Canales"
         ]
@@ -137,7 +137,7 @@ const Data = [
     {
         "id": 8,
         "departamento" : "Huehuetenango",
-        "mun" : [
+        "municipios" : [
             "Aguacatán",
             "Chiantla",
             "Colotenango",
@@ -174,7 +174,7 @@ const Data = [
     {
         "id": 9,
         "departamento" : "Izabal",
-        "mun" : [
+        "municipios" : [
             "El Estor",
             "Livingston",
             "Los Amates",
@@ -185,7 +185,7 @@ const Data = [
     {
         "id": 10,
         "departamento" : "Jalapa",
-        "mun" : [
+        "municipios" : [
             "Jalapa",
             "Mataquescuintla",
             "Monjas",
@@ -198,7 +198,7 @@ const Data = [
     {
         "id": 11,
         "departamento" : "Jutiapa",
-        "mun" : [
+        "municipios" : [
             "Agua Blanca",
             "Asunción Mita",
             "Atescatempa",
@@ -221,7 +221,7 @@ const Data = [
     {
         "id": 12,
         "departamento" : "Petén",
-        "mun" : [
+        "municipios" : [
             "Dolores",
             "Flores",
             "La Libertad",
@@ -240,7 +240,7 @@ const Data = [
     {
         "id": 13,
         "departamento" : "Quetzaltenango",
-        "mun" : [
+        "municipios" : [
             "Almolonga",
             "Cabricán",
             "Cajolá",
@@ -270,7 +270,7 @@ const Data = [
     {
         "id": 14,
         "departamento" : "Quiché",
-        "mun" : [
+        "municipios" : [
             "Canillá",
             "Chajul",
             "Chicamán",
@@ -297,7 +297,7 @@ const Data = [
     {
         "id": 15,
         "departamento" : "Retalhuleu",
-        "mun" : [
+        "municipios" : [
             "Champerico",
             "El Asintal",
             "Nuevo San Carlos",
@@ -312,7 +312,7 @@ const Data = [
     {
         "id": 16,
         "departamento" : "Sacatepéquez",
-        "mun" : [
+        "municipios" : [
             "Alotenango",
             "Antigua",
             "Ciudad Vieja",
@@ -334,7 +334,7 @@ const Data = [
     {
         "id": 17,
         "departamento" : "San Marcos",
-        "mun" : [
+        "municipios" : [
             "Ayutla",
             "Catarina",
             "Comitancillo",
@@ -369,7 +369,7 @@ const Data = [
     {
         "id": 18,
         "departamento" : "Santa Rosa",
-        "mun" : [
+        "municipios" : [
             "Barberena",
             "Casillas",
             "Chiquimulilla",
@@ -389,7 +389,7 @@ const Data = [
     {
         "id": 19,
         "departamento" : "Sololá",
-        "mun" : [
+        "municipios" : [
             "Concepción",
             "Nahualá",
             "Panajachel",
@@ -414,7 +414,7 @@ const Data = [
     {
         "id": 20,
         "departamento" : "Suchitepéquez",
-        "mun" : [
+        "municipios" : [
             "Chicacao",
             "Cuyotenango",
             "Mazatenango",
@@ -440,7 +440,7 @@ const Data = [
     {
         "id": 21,
         "departamento" : "Totonicapán",
-        "mun" : [
+        "municipios" : [
             "Momostenango",
             "San Andrés Xecul",
             "San Bartolo",
@@ -454,7 +454,7 @@ const Data = [
     {
         "id": 22,
         "departamento" : "Zacapa",
-        "mun" : [
+        "municipios" : [
             "Cabañas",
             "Estanzuela",
             "Gualán",

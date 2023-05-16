@@ -7,8 +7,7 @@ const SelectAnidados = () => {
     const [state, setState] = useState("")
     const [town, setTown] = useState("")
     const [suburb, setSuburb] = useState("")
-
-    const TOKEN = "d81a7ac7976d-4e1eb7d3b1979d791b6c"
+    console.log(Data[state])
 
     return (
         <div>
@@ -22,7 +21,7 @@ const SelectAnidados = () => {
             {state &&
                 <SelectList
                     title="municipios"
-                    url=""
+                    url={Data}
                     handleChange={(e) => { setTown(e.target.value) }}
                 />
             }
