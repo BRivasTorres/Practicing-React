@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.inpus-styles {
+    @apply border-2 p-[.5rem] my-[.3rem]
+}
