@@ -1,4 +1,3 @@
-import React from 'react'
 import { useForm } from '../hooks/useForm'
 
 const initialForm = {
@@ -13,7 +12,6 @@ const validationsForm = (form) => {
     const regexName = /^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$/;
     const regexEmail = /^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$/;
     const regexComments = /^.{1,255}$/;
-
 
     if (!form.name.trim()) {
         errors.name = "El campo ´Nombre´ es requerido"

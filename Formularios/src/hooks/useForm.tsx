@@ -19,7 +19,36 @@ export const useForm = (initialForm, validateForm) => {
         handleChange(e)
         setErrors(validateForm(form))
     }
-    const handleSubmit = (e) => { }
+    const handleSubmit = async (e) => {
+        e.preventDefault()
+        setErrors(validateForm(form))
+
+        if (Object.keys(errors).length === 0) {
+            alert("Enviando formulario")
+        } else {
+            return
+        }
+
+        try {
+            const response = await fetch("https://formspree.io/f/mayzzwej",
+                {
+                    method: "POST",
+                    headers: {
+                        "Content-type": "application/json",
+                    },
+                    body: JSON.stringify(form)
+                })
+
+            if (response.ok) {
+                alert('Formulario enviado satisfacotoriamente');
+            } else {
+                alert('Un error ocurrio mientras se eniviaba el formulario.');
+            }
+        } catch (error) {
+            alert("Un error ocurrio mientras se eniviaba el formulario")
+            console.log(error)
+        }
+    }
 
     return { form, errors, loading, response, handleChange, handleBlur, handleSubmit }
 }
