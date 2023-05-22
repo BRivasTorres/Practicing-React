@@ -1,7 +1,13 @@
+import Modal from "./components/Modal"
+
 function App() {
   return (
     <>
-      <h2 className="text-3xl font-bold underline">App modal</h2>
+      <Modal>
+        <h2>Modal 1</h2>
+        <p>Contenido del modal 1</p>
+        <img src="https://placeimg.com/300/300/animals" alt="animals" />
+      </Modal>
     </>
   )
 }
