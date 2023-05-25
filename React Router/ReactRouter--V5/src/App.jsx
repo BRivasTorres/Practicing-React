@@ -2,6 +2,8 @@ import BasicConcepts from "./components/BasicConcepts"
 import {BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import Acerca from "./pages/Acerca"
 import Contacto from "./pages/Contacto"
+import Home from "./pages/Home"
+import Error404 from "./pages/Error404"
 
 function App() {
   return (
@@ -9,11 +11,10 @@ function App() {
       <BasicConcepts /> 
       <Router>
         <Switch>
-            <Route exact path="/">
-              <h3>Home</h3>
-            </Route>
+            <Route exact path="/" component={Home} />
             <Route exact path="/acerca" component={Acerca} />
-            <Route exact  path="/contacto" component={Contacto} />
+            <Route exact path="/contacto" component={Contacto} />
+            <Route path="*" component={Error404} />
         </Switch>
       </Router>
     </>
