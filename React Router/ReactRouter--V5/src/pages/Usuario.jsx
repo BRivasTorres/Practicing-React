@@ -1,13 +1,12 @@
 import { useParams } from "react-router-dom/cjs/react-router-dom.min"
 
 const Usuario = () => {    
-    let {userName} = useParams()
+    let {username} = useParams()
     
   return (
     <div>
         <h3>Perfil del usuario</h3>
-        <p>Nombre del usuario</p>
-        <h2>{userName}</h2>
+        <p>Nombre del usuario : {username} </p>
     </div>
   )
 }
