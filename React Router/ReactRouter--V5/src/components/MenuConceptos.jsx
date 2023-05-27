@@ -1,0 +1,30 @@
+import { Link, NavLink } from 'react-router-dom/cjs/react-router-dom.min'
+
+const MenuConceptos = () => {
+  return (
+    <div>
+        <ol>
+            <li>
+                <span>Menú cone nelaces HTML no recomendado</span>
+                <a href="">Home</a> 
+                <a href="">Acerca</a> 
+                <a href="">Contacto</a> 
+            </li>
+            <li>
+                <span>Componente Link</span>
+                <Link to="/home">Home</Link>
+                <Link to="/acerca">Acerca</Link>
+                <Link to="/contacto">Contacto</Link>
+            </li>
+            <li>
+                <span>Componente NavLink</span>
+                <NavLink exact to="/" activeClassName="active">Home</NavLink>
+                <NavLink exact to="/contacto" activeClassName="active">Contacto</NavLink>
+                <NavLink exact to="/acerca" activeClassName="active ">Acerca</NavLink>
+            </li>
+        </ol>
+    </div>
+  )
+}
+
+export default MenuConceptos
