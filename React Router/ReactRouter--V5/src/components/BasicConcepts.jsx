@@ -6,6 +6,7 @@ import Error404 from "../pages/Error404"
 import MenuConceptos from "../components/MenuConceptos"
 import Usuario from '../pages/Usuario'
 import Productos from "../pages/Productos"
+import { Redirect } from "react-router-dom/cjs/react-router-dom.min"
 
 const BasicConcepts = () => {
   return (
@@ -19,6 +20,12 @@ const BasicConcepts = () => {
             <Route exact path="/contacto" component={Contacto} />
             <Route exact path="/usuario/:username" component={Usuario} />
             <Route exact path="/productos" component={Productos} />
+            <Route exact path="/contact">
+                <Redirect to="/contacto" /> 
+            </Route>
+            <Route exact path="/about">
+                <Redirect to="/acerca" /> 
+            </Route>
             <Route path="*" component={Error404} />
         </Switch>
       </Router>
