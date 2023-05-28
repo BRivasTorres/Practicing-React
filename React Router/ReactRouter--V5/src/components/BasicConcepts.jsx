@@ -7,6 +7,7 @@ import MenuConceptos from "../components/MenuConceptos"
 import Usuario from '../pages/Usuario'
 import Productos from "../pages/Productos"
 import { Redirect } from "react-router-dom/cjs/react-router-dom.min"
+import ReactTopics from "../pages/ReactTopics"
 
 const BasicConcepts = () => {
   return (
@@ -26,6 +27,7 @@ const BasicConcepts = () => {
             <Route exact path="/about">
                 <Redirect to="/acerca" /> 
             </Route>
+            <Route path="/react" component={ReactTopics} />
             <Route path="*" component={Error404} />
         </Switch>
       </Router>
