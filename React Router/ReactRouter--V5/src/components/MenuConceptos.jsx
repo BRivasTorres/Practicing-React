@@ -40,6 +40,11 @@ const MenuConceptos = () => {
                 <span>Rutas Anidadas: </span>
                 <Link to="/react" >React Documentation</Link>
             </li>
+            <li>
+                <span>Rutas Privadas: </span>
+                <Link to="/login" >Login</Link>
+                <Link to="/dashboard">Dashboard</Link>
+            </li>
         </ol>
     </div>
   )
