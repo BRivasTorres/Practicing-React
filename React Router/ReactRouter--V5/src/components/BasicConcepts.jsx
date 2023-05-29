@@ -6,7 +6,7 @@ import Error404 from "../pages/Error404"
 import MenuConceptos from "../components/MenuConceptos"
 import Usuario from '../pages/Usuario'
 import Productos from "../pages/Productos"
-import { Redirect } from "react-router-dom/cjs/react-router-dom.min"
+import { HashRouter, Link, Redirect } from "react-router-dom/cjs/react-router-dom.min"
 import ReactTopics from "../pages/ReactTopics"
 import Login from "../pages/Login"
 import Dashboard from "../pages/Dashboard"
@@ -15,6 +15,21 @@ import PrivateRoute from "./PrivateRoute"
 const BasicConcepts = () => {
   return (
     <div>
+      <h2>Hash Router</h2>
+      <HashRouter>
+        <nav>
+          <Link to="/">Home</Link>
+          <Link to="/acerca">Acerca</Link>
+          <Link to="/contacto">Contacto</Link>
+        </nav>
+        <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/acerca" component={Acerca} />
+            <Route exact path="/contacto" component={Contacto} />
+            <Route path="*" component={Error404} />
+        </Switch>
+      </HashRouter>
+      <hr />
       <h3>Basic Components</h3>
        <Router>
         <MenuConceptos />
