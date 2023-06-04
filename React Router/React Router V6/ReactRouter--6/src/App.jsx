@@ -1,20 +1,19 @@
-import { useState } from 'react'
 import { BrowserRouter, Routes, Route, Link} from "react-router-dom"
 import './App.css'
-
-const Acerca = () => {
-  return(
-    <h1>Acerca</h1>
-  )
-}
+import Home from './pages/Home'
+import Acerca from './pages/Acerca'
+import Contacto from './pages/Contacto'
+import Menu from "./pages/Menu"
 
 function App() {
   return (
     <>
       <BrowserRouter>
+        <Menu />
         <Routes>
-          <Route path='/' element={<h1>Acerca</h1>} />
+          <Route path='/' element={<Home />} />
           <Route path='/acerca' element={<Acerca />} />
+          <Route path='/acerca' element={<Contacto />} />
         </Routes>
       </BrowserRouter>
     </>
