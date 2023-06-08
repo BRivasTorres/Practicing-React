@@ -1,11 +1,13 @@
-import { useState } from "react"
+import {useCallback, useState } from "react"
 import CounterChild from "./CounterChild"
 const Counter = () => {
     const [count, setCount] = useState(0)    
+    const [input, setInput] = useState("")
     
-    const handleSum = () => (setCount(prevCount => prevCount + 1))
+    const handleSum = useCallback(() => setCount(count + 1), [count])
+    const handleRest = useCallback(() => setCount(count - 1), [count])
     
-    const handleRest = () => (setCount(prevCount => prevCount - 1))
+    const handleChange = () => ((e) => setInput(e.target.value))
     
   return (
     <div>
@@ -13,7 +15,10 @@ const Counter = () => {
       <h2>{count}</h2>
       <button onClick={handleSum}>+</button>
       <button onClick={handleRest}>-</button>
-      <CounterChild />
+      
+      <input type="text" onChange={handleChange} value={input}/>
+      
+      <CounterChild counter={count} sum={handleSum} rest={handleRest} />
     </div>
   )
 }
