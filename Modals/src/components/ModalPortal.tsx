@@ -1,5 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react'
+import { createPortal } from 'react-dom'
+
 
 const ModalPortal = ({ children, isOpen, closeModal }) => {
     const handleModalContainerClikc = e => e.stopPropagation()
