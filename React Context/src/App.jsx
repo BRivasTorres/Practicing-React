@@ -3,9 +3,9 @@ import MyPage from './components/MyPage'
 
 function App() {
   return (
-    <>
-      <MyPage />
-    </>
+    <div>
+      <MyPage /> 
+    </div>
   )
 }
 
