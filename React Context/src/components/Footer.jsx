@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Footer = () => {
+const Footer = ({theme}) => {
   return (
-    <div>
-      <h2>Footer</h2>
+    <div className={theme}>
+      <h4>Mi pié de pagina</h4>
     </div>
   )
 }

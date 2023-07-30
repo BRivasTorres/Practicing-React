@@ -1,7 +1,9 @@
-const Main = () => {
+const Main = ({theme}) => {
   return (
-    <div>
-      <h2>Main</h2>
+    <div className={theme} >
+      <p>Bienvenido invitado</p>
+      <p>Hola usuario</p>
+      <p>Mi contenido principal</p>
     </div>
   )
 }
