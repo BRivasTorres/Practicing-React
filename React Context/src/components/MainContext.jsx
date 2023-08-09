@@ -3,6 +3,7 @@ import ThemeContext from "../context/ThemeContext"
 
 const MainContext = () => {
     const {theme} = useContext(ThemeContext)
+    // const {texts} = useContext(contextValue);
   return (
     <div className={theme} >
       <p>Bienvenido invitado</p>
